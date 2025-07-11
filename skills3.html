@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Skills</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .skills-section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+    }
+
+    .skill-name {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .skill-bar {
+      background-color: #ddd;
+      border-radius: 25px;
+      overflow: hidden;
+    }
+
+    .skill-fill {
+      height: 20px;
+      background-color: #007BFF;
+      width: 0%;
+      color: white;
+      line-height: 20px;
+      padding-left: 10px;
+      border-radius: 25px;
+      transition: width 1.5s ease-in-out;
+    }
+
+    /* Animate when page loads */
+    .skill-fill.animate-html { width: 90%; }
+    .skill-fill.animate-css { width: 85%; }
+    .skill-fill.animate-js { width: 75%; }
+    .skill-fill.animate-python { width: 80%; }
+    .skill-fill.animate-communication { width: 95%; }
+  </style>
+</head>
+<body>
+  <div class="skills-section">
+    <h1>My Skills</h1>
+
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar">
+        <div class="skill-fill animate-html">90%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="skill-bar">
+        <div class="skill-fill animate-css">85%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-bar">
+        <div class="skill-fill animate-js">75%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">Python</div>
+      <div class="skill-bar">
+        <div class="skill-fill animate-python">80%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-name">Communication</div>
+      <div class="skill-bar">
+        <div class="skill-fill animate-communication">95%</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <center><small>CRN-2415050 URN-2435951</small></center>
+  </footer>
+</body>
+</html>
